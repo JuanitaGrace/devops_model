@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: { modelagent }
+pool: 
+  name: modelagent 
 
 steps:
 - task: Maven@4
